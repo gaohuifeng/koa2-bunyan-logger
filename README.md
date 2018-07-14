@@ -4,12 +4,12 @@
 var koa = require('koa');
 var koaBunyanLogger = require('koa2-bunyan-logger');
 
-var app = koa();
+var app = new koa();
 app.use(koaBunyanLogger());
 
-app.use(function *(next) {
+app.use(function async (next) {
   this.log.info('Got a request from %s for %s', this.request.ip, this.path);
-  yield next;
+  await next();
 });
 
 app.listen(8000);

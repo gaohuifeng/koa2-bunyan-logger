@@ -1,0 +1,27 @@
+{
+  "name": "koa2-bunyan-logger",
+  "version": "1.0.0",
+  "description": "koa2-bunyan-logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaohuifeng/koa2-bunyan-logger.git"
+  },
+  "author": "",
+  "dependencies": {
+    "bunyan": "~1.5.0",
+    "on-finished": "~2.1.1",
+    "uuid": "^3.0.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaohuifeng/koa2-bunyan-logger/issues"
+  },
+  "homepage": "https://github.com/gaohuifeng/koa2-bunyan-logger#readme",
+  "devDependencies": {
+    "koa": "^2.5.2"
+  }
+}
