@@ -1,4 +1,7 @@
 # koa2-bunyan-logger
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads][downloads-image]][downloads-url]
 
 ```js
 var koa = require('koa');
@@ -295,3 +298,13 @@ The internal copy of bunyan is exported as `.bunyan`:
 var koaBunyanLogger = require('koa-bunyan-logger');
 var bunyan = koaBunyanLogger.bunyan;
 ```
+
+[npm-url]: https://npmjs.org/package/koa2-bunyan-logger
+[npm-image]: http://img.shields.io/npm/v/koa2-bunyan-logger.svg
+
+[travis-url]: https://travis-ci.org/gaohuifeng/koa2-bunyan-logger
+[travis-image]: https://travis-ci.org/gaohuifeng/koa2-bunyan-logger.svg?branch=master
+
+[downloads-url]: https://npmjs.org/package/koa2-bunyan-logger
+[downloads-image]: https://img.shields.io/github/downloads/atom/atom/latest/total.svg
+
